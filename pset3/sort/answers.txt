@@ -1,0 +1,13 @@
+[Used `reversed50000.txt` list for the worst case scenario, and `sorted50000.txt` for the best case scenario]
+
+sort1 uses: Bubble Sort
+Runtime results: 5.37s in the worst case and 0.97s in the best case.
+How do you know?: The results are in line with `O(n²)` and `Ω(n)`.
+
+sort2 uses: Merge Sort
+Runtime results: 1.06s in the worst case, and 0.98s to sort sorted list;
+How do you know?: The results are in line with `O(n log n)` and `Ω(n log n)`.
+
+sort3 uses: Selection Sort
+Runtime results: 2.95s in the worst case, and 2.89s best case;
+How do you know?: The results are in line with `O(n²)` and `Ω(n²)`.
