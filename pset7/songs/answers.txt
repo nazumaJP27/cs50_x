@@ -1,0 +1,23 @@
+1) If songs.db contains the top 100 songs of one listener from 2018, how would you characterize their audio aura?
+    R.:
+        I think the most straight forward way would be to assign a 'range value' for each audio aura type, and this value could be the
+        average of energy, valence, and danceability data from the person's top 100 songs. The SQL query for this would be:
+            `SELECT (AVG(energy) + AVG(valence) + AVG(danceability)) / 3 FROM songs;`
+        Then we would check which type of aura the returning result fit into. For example, the query above return `0.62`, so if the
+        specification for each aura type looks like:
+            Blue   = 0 to 0.19
+            Yellow = 0.2 to 0.39
+            Orange = 0.4 to 0.59
+            Pink   = 0.6 to 0.79
+            Green  = 0.8 to 0.99
+            Purple = 1 or higher
+        The person's aura type would be Pink.
+        This is almost an oversimplified approach, but I would argue that it's a good way to get started to then iterate over it.
+
+2) Hypothesize about why the way you’ve calculated this aura might not be very representative of the listener.
+   What better ways of calculating this aura would you propose?
+   R.:
+        Well, maybe somekind of formula could be applied to the calculated result, that gives different weights to each element
+        based on specific conditions like the days of the week the user listened to a given type of song, or by taking in
+        consideration the other songs the user have on their `Liked Songs` and other saved playlists.
+
