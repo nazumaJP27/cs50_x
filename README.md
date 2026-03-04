@@ -14,5 +14,7 @@ This repository contains the **Problem Sets** submitted for **CS50X 2024**
   - Week 4: **Memory**
   - Week 5: **Data Structures**
   - Week 6: **Python**
+  - Week 7: **SQL**
+  - Week 8: **HTML, CSS, JavaScript**
 
 ##### *Jul 2024 - Aug 2024*
