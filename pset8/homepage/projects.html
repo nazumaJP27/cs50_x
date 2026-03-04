@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="J. Paulo Seibt">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="nofollow, noindex">
+    
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+        <title>J. Paulo Seibt - Projects</title>
+    </head>
+<body>
+    <nav class="navbar-top"></nav>
+    <header>
+        <h1> PROJECTS </h1>
+        <hr class="header-hr">
+    </header>
+
+    <h2>NBA Park Arduino Library</h2>
+    <p class="subtitle">R&D on projects | Present</p>
+    <hr class="sep-hr2">
+    <p>
+        Worked as a programmer on projects for Arduino-controlled attractions throughout the theme park, building experiences
+        focusing on <b>game feedback</b> and <b>maintainability</b>. Here are the attractions where the library was used:
+    </p>
+    <div id="nbapark-inner-projects">
+        <h3><i class="bi bi-dribbble"> </i>R-Battle</h3>
+        <p>
+            Tabletop basketball game using remotely controlled tanks, with matches up to 4 players. I programmed the game
+            logic, addressable LEDs, IR sensors on the "baskets" to count each scored point, the content on the TFT display,
+            and a button for interaction and configuration.
+        </p>
+
+        <h3><i class="bi bi-dribbble"> </i>MVP Competion</h3>
+        <p>
+            Pop-a-shot-like game where players compete for the highest score, having three hoops to make shots, where a 
+            projection shows which one is active for scoring. I programmed the game and integration logic with the projection 
+            mapping software, using OSC protocol for information exchange between the microcontroller and the computer running
+            the projections, as well as US sensors attached to the hoops to count scored points.
+        </p>
+    </div>
+    <div class="project-link-skills">
+        <a class="project-github-link"
+            href="https://github.com/nazumaJP27/NBAPark_arduino_library"
+            target= "_blank"
+        >
+            <i class="bi bi-github"></i>
+        </a>
+        <p class="project-skills">
+            C++ | Memory Management | PlatformIO | Arduino | OOP | UX | Communication Protocols | Embedded | Electronics
+        </p>
+    </div>
+
+    <h2>IR with Inverted Index & ATM SIM</h2>
+    <p class="subtitle">Google's C++ Education Course | December 2024</p>
+    <hr class="sep-hr2">
+    <p>
+        The <a href="https://developers.google.com/edu/c++/cpp-in-depth#how-google-works" target="_blank">course's final project</a>
+        is to build a search engine by creating an Inverted Index data structure from text documents, providing a command-line
+        UI for query input and search result display, while the previous was an <b>ATM Simulator</b>, both illustrating <i>I/O and OO</i>
+        design in C++ and project structuring. By requiring multiple files, write a hash table from scratch and perform dynamic
+        memory allocation, those projects helped me better understand the <b>C/C++ build process</b> and <b>memory management</b>
+        as a whole, while also giving me plenty of room to explore tools like <b>Make</b> and <b>GDB</b>, which I was curious to
+        learn at the time.
+    </p>
+    <a href="https://developers.google.com/edu/c++/cpp-in-depth#how-google-works"></a>
+    <div class="project-link-skills">
+        <a class="project-github-link"
+            href="https://github.com/nazumaJP27/cpp_google_course"
+            target= "_blank"
+        >
+            <i class="bi bi-github"></i>
+        </a>
+        <p class="project-skills">
+            C++ | GDB | Memory Management | Makefiles | Information Retrieval | OOP
+        </p>
+    </div>
+
+    <h2>Pygame Ghouls 'n Ghosts</h2>
+    <p class="subtitle">CS50P's Final Project | July 2024</p>
+    <hr class="sep-hr2">
+    <p>
+        A 2D arcade-style game inspired by <i>Super Ghouls 'n Ghosts</i>, featuring a leaderboard system that stores the top ten
+        highest scores and the names of the players who achieved them. This project pushed me into prototyping and implementing
+        game mechanics, such as score and stat tracking systems, collisions, enemy behaviors, dynamic item and weapon systems,
+        player leveling, game balancing, customizable controls, and UI. The game can be downloaded on
+        <a href="https://nazuma.itch.io/pygame-ghouls-n-ghosts" target="_blank">Itch.io</a>.
+    </p>
+    <iframe class="embedded-ybvideo"
+        src="https://www.youtube.com/embed/FDvuSFBUjeU?si=j4Ijo_VN0_3-DdQa&amp;start=75"
+        title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+    >
+    </iframe>
+    <div class="project-link-skills">
+        <a class="project-github-link"
+            href="https://github.com/nazumaJP27/pygameGhoulsNGhosts"
+            target= "_blank"
+        >
+            <i class="bi bi-github"></i>
+        </a>
+        <p class="project-skills">
+            Python | Pygame | Game Programming Logic | UX | OOP
+        </p>
+    </div>
+
+    <footer class="page-footer"></footer>
+</body>
+</html>

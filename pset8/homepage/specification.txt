@@ -1,0 +1,52 @@
+HTML tags used:
+    <head>
+    <meta>
+    <link>
+    <script>
+    <title>
+    <body>
+    <nav>
+    <header>
+    <h1>
+    <h2>
+    <h3>
+    <hr>
+    <div>
+    <img>
+    <iframe>
+    <p>
+    <a>
+    <i>
+    <ul>
+    <li>
+    <footer>
+
+CSS properties used:
+    margin
+    font-family
+    font-style
+    font-size
+    line-height
+    word-spacing
+    text-align
+    text-decoration
+    list-style
+    border-style
+    border-radius
+    background-color
+    color
+    opacity
+    width
+    height
+    display
+    position
+    padding
+    float
+    z-index
+
+JavaScript and Bootstrap usage description:
+    I've used JavaScript for the navigation bar logic and to make it function similarly to a dropdown menu on smaller window
+    sizes, as well as HTML injection for reusable components like the pages footer (akin to a `#include` in C), while using
+    Bootstrap for integrating icons.
+
+

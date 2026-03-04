@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function()
     if (navbar_top)
     {
         navbar_top.innerHTML = `
+            <button class="nav-toggle"><i class="bi bi-list"></i></button>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="projects.html">Projects</a></li>
@@ -47,6 +48,16 @@ document.addEventListener('DOMContentLoaded', function()
             </p>
             <p><a href="#">Go to top.</a></p>
         `;
+    }
+
+    // Set the navigation menu toggle (only on mobile)
+    if (window.matchMedia("(max-width: 580px)").matches) {
+        const nav_toggle = document.querySelector('.nav-toggle');
+        nav_toggle.addEventListener('click', function()
+        {
+            nav_toggle.classList.toggle('active');
+            nav_toggle.parentElement.querySelector('ul').classList.toggle('show');
+        });
     }
 
     // Set the active navigation tab for the current page
